@@ -15,3 +15,10 @@ BOOKS = [
 @app.get("/books")
 async def first_api():
     return BOOKS
+
+
+@app.get("/books/{dynamic_title}")
+async def read_a_book(dynamic_title: str):
+    for book in BOOKS:
+        if book['title'].casefold() == dynamic_title.casefold():
+            return book
