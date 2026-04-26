@@ -50,4 +50,12 @@ Self vs Super:
 
 Polymorphism:
     - Ter metodos iguais em cada Child class para cada um ter sua particularidade
+
+
+POST - Metodo
+    - usado para criar dados
+    - deve ter um Body para adição dos dados, GET não deve
+PUT - Metodo
+    - usado para criar dados
+    - pode ter um Body para adição dos dados, GET não deve
 """
