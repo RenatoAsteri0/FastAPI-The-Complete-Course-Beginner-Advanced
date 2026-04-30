@@ -58,4 +58,9 @@ POST - Metodo
 PUT - Metodo
     - usado para criar dados
     - pode ter um Body para adição dos dados, GET não deve
+
+Oque é Pydantics?
+    - É uma biblioteca de validação de dados, usada para criar modelos de dados e validar os dados de entrada em APIs. Ele é usado para garantir que os dados recebidos em
+    uma API estejam no formato correto e atendam aos requisitos especificados.
+    Ele é amplamente utilizado em frameworks como FastAPI para facilitar a criação de APIs robustas e seguras.
 """
